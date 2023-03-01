@@ -1,11 +1,15 @@
 <template>
     <div>
-        <h1></h1>
+        <h1>Google Mock</h1>
+        <p>{{ msg }}</p>
     </div>
 </template>
 
 <script>
 export default {
-    name: ""
+    name: "GoogleHomePage",
+    props: {
+        msg: String,
+    }
 }
 </script>
